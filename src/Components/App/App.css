@@ -5,6 +5,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	text-align: center;
 }
 .Heading{
 	font-family: 'Crete Round', serif;
