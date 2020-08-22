@@ -31,7 +31,7 @@ const TimerButton: React.FC<TimerButtonProp> = ({ counter, setCounter, min, setM
                 ++smallsec
                 setCounter(smallsec)
 
-                if (smallsec === 10) {
+                if (smallsec === 60) {
                     setMin(++smallmin)
                     smallsec = 0;
                     setCounter(smallsec)
