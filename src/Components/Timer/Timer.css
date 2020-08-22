@@ -1,0 +1,21 @@
+.timer-container {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 4px 4px 6px  rgb(233, 232, 232);
+}
+.timer{
+	padding: 5px;
+	font-size: 24px;
+	font-weight: bolder;
+}
+.sec,.min{
+	padding: 4px;
+}
+img{
+	max-width: 300px;
+	min-width: 170px;
+	max-height: 250px;
+	min-height: 140px;
+}
